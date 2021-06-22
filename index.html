@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Hangman</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+            <h1 style="text-align: center;">Hangman</h1>
+            <div style="text-align: center;">
+                <input id="word" type="text" placeholder="Word to guess" pattern="[A-Za-z]{1,}" title="Only letters">
+                <button id="submit" type="submit" onclick="setWord()">Insert word</button>
+                <p id="verification"></p>
+                <div id="wordToGuess"></div>
+                <div id="allButton"></div>
+            </div>
+        </body>
+        <script src="index.js"></script>
+    </html>
